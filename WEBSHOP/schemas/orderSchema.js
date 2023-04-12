@@ -7,10 +7,7 @@ const orderLineSchema = mongoose.Schema({product: mongoose.Schema.Types.ObjectId
 const orderSchema = new Schema({
     userId: {type: Schema.Types.ObjectId},
     orderLines: {type: [orderLineSchema]},
-    // totalPrice: {
-    //     type: Number, 
-    //     required: true
-    // },
+   
 },
 {timestamps: true});
 

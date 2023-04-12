@@ -1,4 +1,4 @@
-const product = require('../schemas/productSchema');
+
 const Product= require('../schemas/productSchema')
 
 exports.createNewProduct = async(req, res) => {
